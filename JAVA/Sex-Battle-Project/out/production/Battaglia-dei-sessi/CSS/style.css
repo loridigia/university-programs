@@ -1,0 +1,74 @@
+.button {
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+
+#buttonStart {
+    -fx-background-color: #C6EFCE;
+}
+#buttonStart:focused, #buttonStart:hover {
+    -fx-background-color: rgb(37, 211, 78);
+    -fx-effect: dropshadow(gaussian, #ccc, 6, 0, 4, 6);
+}
+
+
+#buttonStop {
+    -fx-background-color: #FFC7CE;
+}
+#buttonStop:focused , #buttonStop:hover {
+    -fx-background-color: #FF6640;
+    -fx-effect: dropshadow(gaussian, #ccc, 6, 0, 4, 6);
+
+}
+
+
+#buttonRestart {
+    -fx-background-color: #FFE699;
+}
+#buttonRestart:focused, #buttonRestart:hover {
+    -fx-background-color: #FFFF00;
+    -fx-effect: dropshadow(gaussian, #ccc, 6, 0, 4, 6);
+}
+
+#buttonGrafico, #buttonGrafico2{
+    -fx-background-color: #fff;
+}
+#buttonGrafico:hover, #buttonGrafico2:hover {
+    -fx-effect: innershadow(gaussian, #f00, 6, 0, 4, 6);
+    -fx-effect: dropshadow(gaussian, #ccc, 6, 0, 4, 6);
+}
+
+.closebarchart {
+    -fx-background-color: #FFC7CE;
+}
+.closebarchart:hover {
+    -fx-background-color: #FF6640;
+    -fx-effect: dropshadow(gaussian, #ccc, 20, 0, 0, 8);
+}
+#parA:focused, #parA:hover {
+    -fx-background-color: #4AFCAE;
+    -fx-effect: dropshadow(gaussian, #ccc, 20, 0, 0, 8);
+}
+#parB:focused, #parB:hover {
+    -fx-background-color: #BDE4FF;
+    -fx-effect: dropshadow(gaussian, #ccc, 20, 0, 0, 8);
+}
+#parC:focused, #parC:hover {
+    -fx-background-color: #FFCAED;
+    -fx-effect: dropshadow(gaussian, #ccc, 20, 0, 0, 8);
+}
+#parD:focused, #parD:hover {
+    -fx-background-color: #EFBCFF;
+    -fx-effect: dropshadow(gaussian, #ccc, 20, 0, 0, 8);
+}
+.field {
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+.valori {
+    -fx-text-fill: black;
+}
+.popupclosebutton {
+
+}
