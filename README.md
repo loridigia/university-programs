@@ -1,4 +1,4 @@
 # UniversityPrograms
-Collections of programs developed for exames
+Collections of programs developed for exams
 
 
